@@ -226,7 +226,7 @@ body{
 
 /* 6.2 文章页面*/
 .entry-content{
-    background: #fff0;
+    background: rgba(255,255,255, 0);
 }
 
 .pager li>a, .pager li>span {
@@ -274,18 +274,18 @@ body{
 }
 
 blockquote {
-    background: rgba(0,0,0,0.15);
+    background: rgba(255,255,255,0.3);
     color: #fff;
 }
 
 code {
     color: #ffffff;
-    background-color: rgba(0, 0, 0, 0.33);
+    background-color: rgba(255,255, 255, 0.3);
 }
 
 .well, pre {
     border-color: rgba(255,255,255,0.15);
-    background: url(../img/blueprint.png) rgba(0, 0, 0, 0.3);
+    background:  rgba(255,255, 255, 0.3);
     color: #fff;
 }
 table tr {
@@ -490,4 +490,14 @@ textarea#comment {
 }
 .tip.inlineBlock {
     color: #666;
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse{
+        background: rgba(0, 0, 0, 0.5);
+    }
+}
+
+.hljs {
+    color: #fff;
 }
